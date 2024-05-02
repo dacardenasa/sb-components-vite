@@ -28,11 +28,9 @@ export const Label = ({
   size = "normal",
   allCaps = false,
   color = "text-primary",
-  backgroundColor = "#FFFFFF"
-}: LabelProps) => {
-  return (
-    <span className={`${size} ${color}`} style={{ backgroundColor }}>
-      {allCaps ? label.toUpperCase() : label}
-    </span>
-  );
-};
+  backgroundColor = "transparent"
+}: LabelProps) => (
+  <span className={`${size} ${color}`} style={{ backgroundColor }}>
+    {allCaps ? label.toUpperCase() : label}
+  </span>
+);

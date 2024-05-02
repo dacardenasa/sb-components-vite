@@ -46,3 +46,12 @@ export const CustomColor: Story = {
     backgroundColor: "#FFF000"
   }
 };
+
+export const CombinedProps: Story = {
+  args: {
+    label: "CustomColor Label",
+    backgroundColor: "#000fff",
+    color: "text-secondary",
+    size: "h1"
+  }
+};
