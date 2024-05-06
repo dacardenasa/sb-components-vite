@@ -3,7 +3,7 @@
 Install
 
 ```
-npm i dc-custom-components
+npm i dc-custom-component
 ```
 
 1. [Button component](#button)
