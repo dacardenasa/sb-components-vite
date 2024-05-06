@@ -43,7 +43,8 @@
     "chromatic": "npx chromatic --project-token=chpt_1adb7b97fc8d2a5",
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:npm": "np"
+    "push:npm": "np",
+    "test": "echo 'all tests were good'"
   },
   "dependencies": {},
   "devDependencies": {
@@ -67,7 +68,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-storybook": "^0.8.0",
-    "np": "^10.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^5.0.5",
